@@ -1,0 +1,29 @@
+# SoulScript Environment Variables Template
+# Copy this content to a new file called .env.local
+
+# =============================================================================
+# SUPABASE CONFIGURATION
+# =============================================================================
+# Get these from your Supabase project: Settings → API
+NEXT_PUBLIC_SUPABASE_URL=https://your-project-ref.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key_here
+
+# Service role key (KEEP SECRET - only for server-side operations)
+SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key_here
+
+# =============================================================================
+# DEVELOPMENT CONFIGURATION
+# =============================================================================
+NODE_ENV=development
+NEXT_PUBLIC_SITE_URL=http://localhost:3000
+
+# =============================================================================
+# SETUP INSTRUCTIONS:
+# =============================================================================
+# 1. Go to your Supabase project dashboard
+# 2. Navigate to Settings → API
+# 3. Copy the "Project URL" and replace "https://your-project-ref.supabase.co"
+# 4. Copy the "anon public" key and replace "your_supabase_anon_key_here"
+# 5. (Optional) Copy the "service_role" key for server-side operations
+# 6. Save this as .env.local in your project root
+# ============================================================================= 
